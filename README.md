@@ -3,6 +3,10 @@
 ## Project setup
 ```
 yarn install
+
+cp .env.example .env
+
+Replace your_app_base_url with your app base url 
 ```
 
 ### Compiles and hot-reloads for development
