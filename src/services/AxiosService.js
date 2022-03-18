@@ -17,6 +17,6 @@ export default {
         )
     },
     post(urlComplement,body,config){
-        return apiClient.post(`/${urlComplement}`,body,config)
+        return apiClient.post(urlComplement,body,config)
     }
 };
